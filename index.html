@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Empathy</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+    
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/white.css" id="theme">
+    
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+		<header>
+      <p style="position: absolute;top: 0;right:50px"><em>Lightning talks</em>
+			</p>
+		</header>
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/01_index.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/02_user_story_story.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/03_3c.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/04_invest.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/05_independant.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/06_negotiable.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/07_valuable.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/08_estimable.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/09_small.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/10_testable.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-separator-notes="^Note:" data-separator="^\n\n\n\n"  data-separator-vertical="^\n\n\n"  data-markdown="slides/11_bdd.md"></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+		<footer>
+			<img src="resources/znk.png" height="92px" width="119px" style="position: absolute;bottom: 50px;left:0"/>
+			<p style="position: absolute;bottom: 50px;right:200px">
+			User Stories - INVEST	
+			</p>
+		</footer>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+
+          // Full list of configuration options available at:
+          // https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+			width : 1260,
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+              { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+            ]
+          });
+
+        </script>
+    </body>
+
+</html>
